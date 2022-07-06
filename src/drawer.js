@@ -17,7 +17,7 @@ window.addEventListener( "load", () => {
                 <pholder>
                     <img src="src/assets/pix/natal/buildings-cabin-house-svgrepo-com.svg" alt="" width="35px" height="35px">
                 </pholder>
-                <option onclick="window.open('https://192.168.15.16:8000', '_self');">Opção 1</option>
+                <option onclick="window.open('http://192.168.15.16:8000', '_self');">Opção 1</option>
             </li>
             <li>
                 <pholder>
