@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vite Vanilla</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src/assets/pix/favicons/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <link rel="stylesheet" href="src/assets/css/appbar.css">
+    <link rel="stylesheet" href="src/assets/css/drawer.css">
+  </head>
+  <body>
+    <appbar></appbar>
+    <drawer></drawer>
+    <app></app>
+    <!-- <script type="module" src="src/assets/scripts/load.js"></script> -->
+    <!-- <script src="src/assets/scripts/load.js"></script> -->
+    <script>
+        var mainjs = document.createElement( "script" );
+        var appbarjs = document.createElement( "script" );
+        var drawerjs = document.createElement( "script" );
+        var homejs = document.createElement( "script" );
+        var loadjs = document.createElement( "script" );
+
+        mainjs.src = "./main.js";
+        appbarjs.src = "./src/appbar.js";
+        drawerjs.src = "./src/drawer.js";
+        homejs.src = "./src/home.js";
+        loadjs.src = "./src/assets/scripts/load.js";
+        
+        document.body.appendChild( mainjs );
+        document.body.appendChild( appbarjs );
+        document.body.appendChild( drawerjs );
+        document.body.appendChild( homejs );
+        document.body.appendChild( loadjs );
+    </script> 
+  </body>
+</html>

@@ -1,0 +1,35 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --body: radial-gradient(
+        circle at center,
+        #282a36 0%,
+        #1e1f29 70%
+    );
+}
+
+* { 
+    margin: 0; padding: 0; box-sizing: border-box; 
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    height: calc( 100vh - 68px );
+    margin-top: 68px;
+    white-space: nowrap;
+    background: var(--body);
+}
+    
+app {
+    display: block;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    /* margin-top: 80px; */
+}
