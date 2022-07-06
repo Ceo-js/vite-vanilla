@@ -2,15 +2,17 @@
 
 window.addEventListener( "load", () => {
 
-    var appbarSwitch = document.querySelector( "appbar-left" );
-    var drawer = document.querySelector( "drawer" );
+    var drawerSwitch = document.querySelector( "appbar-left" );
+    var drawerToggle = document.querySelector( "appbar-right" );
     var option = document.querySelectorAll( "option" );
-    var appbarToggle = document.querySelector( "appbar-right" );
+    var drawer = document.querySelector( "drawer" );
     var drawerObserver = 0;
 
+    function print( v ) { console.table( v ); }
+    drawer.style.width = "0";
+
     
-    appbarSwitch.addEventListener( "click", () => {
-        
+    drawerSwitch.addEventListener( "click", () => {
         switch( drawer.style.width ) {
             case "": drawer.style.width = "350px";
                      option[0].style.display = "block";
@@ -28,25 +30,30 @@ window.addEventListener( "load", () => {
                           option[2].style.display = "none";
                 break;
         }
-        
     } );
 
-    appbarToggle.addEventListener( "click", () => {
+    drawerToggle.addEventListener( "click", () => {
         switch( drawerObserver ) {
             case 0: drawer.style.width = "68px";
                     drawerObserver = 2;
                     option[0].style.display = "none";
                     option[1].style.display = "none";
                     option[2].style.display = "none";
+                    print( `drawerToggle: ${this} - observer: 0` );
                 break;
             case 1: drawer.style.width = "68px";
                     drawerObserver = 2;
+                    option[0].style.display = "none";
+                    option[1].style.display = "none";
+                    option[2].style.display = "none";
+                    print( `drawerToggle: ${this} - observer: 1` );
                 break;
             case 2: drawer.style.width = "0";
                     drawerObserver = 1;
                     option[0].style.display = "none";
                     option[1].style.display = "none";
                     option[2].style.display = "none";
+                    print( `drawerToggle: ${this} - observer: 2` );
                 break;
         }
     } );

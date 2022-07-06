@@ -10,6 +10,7 @@ drawer {
     background: #181923;
     color: #fff;
     transition: .5s cubic-bezier(1,-0.45, 0, 1.68);
+    z-index: 6;
 }
 
 drawer-head {
@@ -38,6 +39,7 @@ drawer-body {
 }
 drawer-body > li {
     display: flex;
+    align-items: center;
     margin: 8px 10px;
     padding: 8px;
     border-radius: 24px;

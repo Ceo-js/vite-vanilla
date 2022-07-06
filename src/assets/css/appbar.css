@@ -13,6 +13,7 @@ appbar {
     box-shadow: #00000050 0 0 5px 2px;
     color: #ccc;
     white-space: nowrap;
+    user-select: none;
     z-index: 9;
 }
 
