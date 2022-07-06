@@ -23,7 +23,7 @@ window.addEventListener( "load", () => {
                 <pholder>
                     <img src="src/assets/pix/natal/adornment-christmas-decoration-svgrepo-com.svg" alt="" width="35px" height="35px">
                 </pholder>
-                <option onclick="window.open('https://ceo-js.github.io/vite-app', '_self');">Opção 2</option>
+                <option onclick="window.open('https://ceo-js.github.io/vite-vanilla', '_self');">Opção 2</option>
             </li>
             <li>
                 <pholder>
