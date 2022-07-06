@@ -19,5 +19,6 @@ appbar {
 
 appbar-left, appbar-right {
     display: grid;
+    width: 25px;
     cursor: pointer;
 }

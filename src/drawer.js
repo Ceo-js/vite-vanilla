@@ -12,19 +12,28 @@ window.addEventListener( "load", () => {
             </profile>
         </drawer-head>
         <drawer-body>
+            <spaced></spaced>
             <li>
-                <img src="src/assets/pix/natal/buildings-cabin-house-svgrepo-com.svg" alt="" width="35px" height="32px">
+                <pholder>
+                    <img src="src/assets/pix/natal/buildings-cabin-house-svgrepo-com.svg" alt="" width="35px" height="35px">
+                </pholder>
                 <option>Opção 1</option>
             </li>
             <li>
-                <img src="src/assets/pix/natal/adornment-christmas-decoration-svgrepo-com.svg" alt="" width="35px" height="32px">
+                <pholder>
+                    <img src="src/assets/pix/natal/adornment-christmas-decoration-svgrepo-com.svg" alt="" width="35px" height="35px">
+                </pholder>
                 <option>Opção 2</option>
             </li>
             <li>
-                <img src="src/assets/pix/natal/christmas-clothing-garment-svgrepo-com.svg" alt="" width="35px" height="32px">
+                <pholder>
+                    <img src="src/assets/pix/natal/christmas-clothing-garment-svgrepo-com.svg" alt="" width="35px" height="35px">
+                </pholder>
                 <option>Opção 3</option>
             </li>
+            <spaced></spaced>
         </drawer-body>
+        <drawer-footer></drawer-footer>
     `;
 
     // drawer.addEventListener( "", () );

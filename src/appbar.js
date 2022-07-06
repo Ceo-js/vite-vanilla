@@ -6,7 +6,7 @@ window.addEventListener( "load", () => {
 
     appbar.innerHTML = `
         <appbar-left>
-            <h1>O</h1>
+            <img src="src/assets/pix/natal/adornment-christmas-decoration-svgrepo-com.svg" alt="" width="35px" height="35px">
         </appbar-left>
         <appbar-center>
             <h1>Sammarco</h1>
