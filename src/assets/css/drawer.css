@@ -3,7 +3,8 @@
 drawer {
     display: block;
     position: fixed;
-    top: 68px; left: 0;
+    /* top: 68px; left: 0; */
+    top: 0; left: 0;
     width: 0;
     overflow: hidden;
     height: 100%;
@@ -12,7 +13,7 @@ drawer {
     box-shadow: #00000050 0 0 5px;
     color: #fff;
     transition: .3s cubic-bezier(1,-0.45, 0, 1.68);
-    z-index: 6;
+    z-index: 9;
 }
 
 drawer-head {
@@ -29,9 +30,9 @@ profile {
     width: 42px;
     height: 42px;
     border-radius: 100%;
-    box-shadow: #cccccc50 0 0 0 5px;
-    background: rgb( 174 0 0 );
-    color: #ff9e00;
+    /* box-shadow: #cccccc50 0 0 0 5px; */
+    /* background: rgb( 174 0 0 ); */
+    /* color: #ff9e00; */
 }
 profile h3 {
 
@@ -41,7 +42,8 @@ drawer-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc( 100vh - 202px );
+    /* height: calc( 100vh - 202px ); */
+    height: calc( 100% - 136px );
 }
 drawer-body > li {
     display: flex;

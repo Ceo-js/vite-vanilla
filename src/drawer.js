@@ -8,7 +8,7 @@ window.addEventListener( "load", () => {
     drawer.innerHTML = `
         <drawer-head>
             <profile>
-                <h1>AS</h1>
+                <img class="drawerswitch" src="src/assets/pix/natal/adornment-christmas-decoration-svgrepo-com.svg" alt="" width="35px" height="35px">
             </profile>
         </drawer-head>
         <drawer-body>
