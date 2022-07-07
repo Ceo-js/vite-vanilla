@@ -12,7 +12,7 @@ window.addEventListener( "load", () => {
             <h1>Sammarco</h1>
         </appbar-center>
         <appbar-right>
-            <h1>=</h1>
+            <img class="drawertoggle" src="src/assets/pix/menu/menu-navigation-direction-arrow-location-map-svgrepo-com.svg" alt="" width="35px" height="35px">
         </appbar-right>
     `;
 

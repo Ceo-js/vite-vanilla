@@ -1,0 +1,22 @@
+
+
+:root {
+    /* # googleDark */
+    --plano-dark: #1f2125;
+    --plano: #dfe1e5;
+    --ground-dark: #32363a;
+    --ground: #ffffff;
+    --groundd-dark: #56575b;
+    --groundd: #55565a;
+    --card-dark: #282c2f;
+    --card: #f1f3f4;    
+    --cardTxt-dark: #9ba1a4;
+    --cardTxt: #7f8484;
+    --Txt-dark: #fefefe;
+    --Txt: #414344;
+    --Txt2-dark: #8a8c90;
+    --Txt2: #606264;
+    --red: #ff5a52;
+    --yeellow: #e7c029;
+    --green: #53c22a;
+}

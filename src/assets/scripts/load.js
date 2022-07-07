@@ -3,7 +3,7 @@
 window.addEventListener( "load", () => {
 
     var drawerSwitch = document.querySelector( ".drawerswitch" );
-    var drawerToggle = document.querySelector( "appbar-right" );
+    var drawerToggle = document.querySelector( ".drawertoggle" );
     var options = document.querySelectorAll( "option" );
     var drawer = document.querySelector( "drawer" );
     var drawerObserver = 0;
